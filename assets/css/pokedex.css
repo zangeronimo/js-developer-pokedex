@@ -78,12 +78,17 @@
     background-color: #f9aec7;
 }
 
+#pokemonName {
+    text-transform: capitalize;
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
